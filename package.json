@@ -1,0 +1,13 @@
+{
+  "name": "wowcraft-forever-cost-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scrape wowcraft.io Forever profession totals into CSV history (GitHub Actions)",
+  "type": "module",
+  "scripts": {
+    "record": "node record_forever_profession_costs.mjs"
+  },
+  "dependencies": {
+    "puppeteer": "^24.8.2"
+  }
+}
